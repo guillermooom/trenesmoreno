@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta name="author" content="Guillermo Moreno" charset="UTF-8">
+		<title>TRENES MORENO</title>
+		<link href="./css/login_guille.css" media="all" type="text/css" rel="stylesheet">	
+		<link rel="icon" href="./img/favicon.png">
+	</head>
+	<body>
+		<div class="cab">
+			<ol class="cuerpo">
+				<li><a><img src="./img/menu.png"></img></a>
+					<ul>
+						<li><a href="./index_guille.html">Home</a></li>
+						<li><a href="./noticias_guille.html">Noticias</a></li>
+						<li><a href="./historia_guille.html">Historia</a></li>
+						<li><a href="./contacto_guille.html">Contacto</a>
+					</ul>
+				</li>
+			</ol>
+		
+		<div class="ima">
+			<a href="./index_guille.html"><img class="logo" src="./img/logo.png"></img></a>
+			<a href="./index_guille.html"><p>Trenes Moreno</p></a>
+		</div>
+		<a href="./login_guille.html"><img class="login" src="./img/user.png"></img></a>
+		</div>
+		<br>
+		<!--FIN MENU-->
+		<div class="user">
+			<!-- IZQUIERDA-->
+			<div class="sesion">
+				<p>Iniciar Sesión</p>
+				<hr class="linea">
+				<br>
+				<form name="formulario" method="post" action="/send.php">
+						
+						Usuario o correo electrónico
+						<br>
+						<input class="rellenar" type="text" name="usuario">
+						<br>
+						<br>
+						Contraseña
+						<br>
+						<input class="rellenar" type="password" name="contraseña" size="50">
+						<br>
+						<br>
+						<input class="boton" type="submit" value="Entrar">
+						<br>
+						<br>
+					</form>
+			</div>
+			<!-- DERECHA -->
+			<div class="register">
+				<p>Registrarse</p>
+				<hr class="linea">
+				<br>
+				<form name="formulario" method="post" action="/send.php">
+						
+						Nombre
+						<br>
+						<input class="rellenar" type="text" name="nombre">
+						<br>
+						<br>
+						Apellidos
+						<br>
+						<input class="rellenar" type="text" name="apellido">
+						<br>
+						<br>
+						e-mail
+						<br>
+						<input class="rellenar" type="text" name="mail">
+						<br>
+						<br>
+						Contraseña
+						<br>
+						<input class="rellenar" type="password" name="Contraseña" size="50">
+						<br>
+						<br>
+						Repetir Contraseña
+						<br>
+						<input class="rellenar" type="password" name="Rcontraseña" size="50">
+						<br>
+						<br>
+						Fecha de Nacimiento
+						<br>
+						<input class="rellenar" type="text" name="FNacimiento" placeholder="DD/MM/YYYY">
+						<br>
+						<br>
+						<!--politica de privacidad-->
+						<input type="checkbox" name="terminos" placeholder="DD/MM/YYYY">
+						Acepto las condiciones generales.
+						<br>
+						<br>
+						<audio controls autoplay>
+							<source src="./audio/modelismo.mp3" type="audio/mpeg">
+						</audio>
+						<br>
+						<br>
+						Respuesta
+						<br>
+						<input class="rellenar" type="text" name="audio">
+						<br>
+						<br>
+						<!--BOTON-->
+						<input class="boton" type="submit" value="Registrarse">
+						<br>
+						<br>
+					</form>
+			</div>
+		</div>
+		<!--PIE DE PAGINA-->
+		<br>
+		<div class="footer">
+			<br>
+			<a href="./nuevo_index.html"><img alt="logo" class="fotlogo" src="./img/logo.png"></img></a>
+			<div class="fotredes">
+				<a href="https://www.facebook.com/modelismo2cero/" target="_blank"><img alt="facebook" src="./img/facebook.png"></a>
+				<a href="https://www.instagram.com/kleinewelt_in_n/" target="_blank"><img alt="instagram" src="./img/instagram.png"></a>
+				<a href="https://twitter.com/mftrain_n" target="_blank"><img alt="twitter" src="./img/twitter.png"></a>
+			</div>
+			<div>
+				<p>© 2022 Trenes Moreno. Algunos derechos reservados |</p>
+				<p><a href="./nuevo_index.html">Termino y condiciones</a> | 
+					<a href="./nuevo_index.html">Politica de privacidad</a> | 
+					<a href="./nuevo_index.html">Aviso legal</a>
+				</p>
+				<br>
+			</div>
+		</div>			
+		
+</body>
+</html>
