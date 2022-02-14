@@ -106,48 +106,65 @@ ul li >a:hover{
 	height: 40px;
 }
 /*FIN MENU*/
-.user{
+.body{
 	margin: auto;
 	width:85%;
-	display: flex;
 }
-@media(max-width:1000px){
-	.user{
-		display: inline;
+@media(max-width:100px){
+	.body{
+		width: 90%;
 	}
 }
-.linea{
-	margin: auto;
+.noti{
+	margin:auto;
+	width: 50%;
+}
+@media (max-width:1000px) {
+	.noti{
+		margin:auto;
+		width: 100%;
+	}
+}
+hr{
+	margin-top:5px;
 	border:#f1d048 2px solid;
-	width: 100px;
-	color:#f1d048
+	color:#f1d048;
+	width:30%;
 }
-.user p{
-	line-height: 55px;
-	font-weight: bold;
-	text-align: center;
-	font-size:35px;
+.noti p{
+	margin-top:10px;
+	font-size:20px;
+	color:#999999;
 }
-.user form{
-	font-size: 20px;
-	margin-left: 10%;
-	margin-right: 10%;
+.noti img{
+	margin:auto;
+	width: 700px;
+	height: 500px;
 }
-.user img{
-	width: 75px;
-	height: 75px;
+@media (max-width:800px) {
+	.noti img{
+		margin:auto;
+		width: 300px;
+		height: 200px;
+	}
 }
-audio{
-	width: 100%;
+@media (max-width:800px) {
+	.noti video{
+		margin:auto;
+		width: 300px;
+		height: 200px;
+	}
 }
 .boton{
+	text-decoration: none;
 	margin:auto;
+	padding:5px 15px;
 	transition: 0.5s;
 	border-radius: 10px;
 	border: #f1d048 1px solid;
 	background-color: #f1d048;
 	color:#ffffff;
-	height: 35px;
+	height: 350px;
 	width: 55%;
 }
 .boton:hover{
@@ -155,27 +172,11 @@ audio{
 	background-color: #005ea8;
 	border: #005ea8 1px solid;
 }
-.sesion{
-	width: 50%;
+.noti h1{
+	font-size:40px;
 }
-@media(max-width:1000px){
-	.sesion{
-		width: 100%;
-	}
-}
-.rellenar{
-	width:100%;
-	border: #000000 1px solid;
-	border-radius: 3px;
-}
-.register{
-	width: 50%;
-}
-@media(max-width:1000px){
-	.register{
-		width: 100%;
-	}
-}
+
+
 /*Footer*/
 .footer{
 	line-height: 30px;
@@ -184,11 +185,10 @@ audio{
 	text-align:center;
 	color:#ffffff;
 }
-.footer a > .fotlogo{
+.footer a > img{
 	margin-bottom: 10px;
 	width: 100px;
 	margin-top: -10px;
-	margin-bottom: -10px;
 }
 .footer a{
 	color:#ffffff;
@@ -196,17 +196,4 @@ audio{
 }
 .footer a:hover{
 	color:#4db8ff;
-}
-.fotredes{
-	padding-top: 10px;
-	margin: auto;
-	width: 250px;
-	height: 50px;
-}
-.fotredes img{
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: auto;
-	width: 40px;
-	height: 40px;
 }
