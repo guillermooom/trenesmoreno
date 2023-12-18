@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    position: sticky;
+    top:0;
+    text-align: right;
+    /*background-color: #3333335d;*/
+    background-color: #16c810;
+    height: 100px;
+}
+
+.content {
+    height: 150vh; /* Añade suficiente altura para permitir hacer scroll */
+    padding: 20px;
+}
+
+.fixed-element {
+    position: sticky;
+    width: 50px;
+    top: 0;
+    padding: 10px;
+    z-index: 100; /* Asegura que esté por encima del contenido */
+}
