@@ -5,12 +5,19 @@
 }
 
 nav{
+    color:#fff;
     position: sticky;
     top:0;
     text-align: right;
+    display: flex;
+    justify-content: right;
     /*background-color: #3333335d;*/
     background-color: #16c810;
+    /*background-color: #333;*/
     height: 100px;
+}
+#ctr_pag{
+    width: 15%;
 }
 
 .content {
@@ -19,9 +26,29 @@ nav{
 }
 
 .fixed-element {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    width:60% ;
+    margin:0 auto;
     position: sticky;
-    width: 50px;
-    top: 0;
-    padding: 10px;
-    z-index: 100; /* Asegura que esté por encima del contenido */
+    top:0;
+}
+
+.fixed-element a {
+    color: #244dd3;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+#tema{
+    background: none;
+    border:none;
+}
+
+#imagenBtn{
+    width: 30px;
+    height: 30px;
 }
